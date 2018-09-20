@@ -73,7 +73,7 @@ You will get error "Can't find variable Buffer" if config `signalr-client` like 
 
 import { HubConnection } from '@aspnet/signalr-client/dist/browser/signalr-clientES5-1.0.0-alpha2-final.min.js';
 
-    let connection = new HubConnection('https://itw-mss-signalr-dev.azurewebsites.net/repositoryHub');
+    let connection = new HubConnection('https://signalr-dev.azurewebsites.net/repoHub');
 
     connection.on('clientOnEntityUpdated', data => {
       console.log('clientOnEntityUpdated', data);
